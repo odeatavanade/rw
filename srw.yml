@@ -1,0 +1,9 @@
+name: Sample Reusable Workflow
+on:
+  workflow_call:
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello"
